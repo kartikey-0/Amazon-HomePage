@@ -343,6 +343,7 @@ margin-left: 3px;
     margin-top: 15px;
 }
 .foot-panel{
+    cursor: pointer;
     background-color: #37475a;
     color: white;
     height: 50px;
@@ -358,4 +359,5 @@ margin-left: 3px;
 
 
           
+
 
