@@ -1,53 +1,46 @@
-# Amazon Home Page Clone (Home Tab) 🌐🛒
+# Amazon Homepage Clone 🛒
 
-This project is a front-end **clone of the Amazon website's Home tab**, created for **UI practice** and to strengthen concepts in **HTML, CSS, JavaScript, and Canva**. The goal was to replicate the layout, styling, and user interface elements for learning and skill improvement.
-
----
-
-## 🎯 Project Purpose
-
-* Practice **UI/UX design fundamentals**
-* Strengthen **HTML & CSS layout skills**
-* Use **JavaScript** for basic functionality (like scroll to top button)
-* Design some graphic elements using **Canva**
-* Improve responsive design understanding
+A front-end clone of Amazon India's homepage built for UI practice. Focused on replicating the real layout and structure using plain HTML, CSS, and JavaScript — no frameworks.
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
-project-folder/
+AMAZON-HOMEPAGE/
 │
-├── index.html        # Main HTML file
-├── style.css         # Styling with CSS 
-├── script.js         # JavaScript for basic interactions
-├── /images           # Canva and UI assets
-└── README.md         # Project documentation
+├── index.html
+├── css/
+│   └── style.css
+├── js/
+│   └── script.js
+├── assets/
+│   ├── banner/
+│   ├── icon/
+│   ├── logo/
+│   └── product/
+└── README.md
 ```
 
 ---
 
-## 🛠️ Technologies Used
+## Built With
 
-| Technology              | Purpose                                      |
-| ----------------------- | -------------------------------------------- |
-| HTML                    | Structure of the webpage                     |
-| CSS                     | Styling and layout                           |
-| JavaScript              | Interactive elements like Back to Top button |
-| Canva                   | Create logos, banners, and UI mockups        |
+- **HTML** — Page structure and layout
+- **CSS** — Styling, flexbox-based navbar, responsive shop grid
+- **JavaScript** — Smooth scroll-to-top on footer click
+- **Canva** — Designed logos and product card images
+- **Font Awesome** — Icons (cart, location, search)
 
+---
 
-## 📚 Learning Outcome
+## Features
 
-🔹 Improved frontend development skills
-🔹 Learned website layout techniques
-🔹 Practiced real-world UI design concepts
-🔹 Gained confidence in HTML, CSS, JavaScript, and Canva usage
+- Sticky navbar with search bar, location, account, and cart sections
+- Panel navigation bar with category links
+- Hero banner section
+- 8-card product category shop section
+- Back to Top footer button
 
-
-## 🤝 Contribution & Feedback
-
-This is a practice project. Suggestions and improvements are always welcome!
 
 
