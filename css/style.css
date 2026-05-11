@@ -1,0 +1,362 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    height: 55px;
+    background-color: #131921;
+    color: whitesmoke;
+    /* FIX #6: Removed duplicate display:flex */
+    display: flex;
+    align-items: center;
+    padding: 5px 20px;
+    gap: 10px;
+    justify-content: space-evenly;
+}
+
+.nav-logo {
+    height: 50px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 7px;
+}
+
+.logo {
+    background-image: url("../assets/logo/Amazon-Logo-Extended.png");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 40px;
+    width: 100px;
+}
+
+.border {
+    border: 2px solid transparent;
+    padding: 5px;
+}
+
+.border:hover {
+    border: 1.5px solid rgb(238, 235, 235);
+}
+
+/* nav-address */
+.add-first {
+    color: rgb(193, 200, 206);
+    font-size: 0.8rem;
+    margin-left: 15px;
+}
+
+.add-second {
+    color: white;
+    font-size: 0.83rem;
+    font-weight: bold;
+    margin-left: 3px;
+}
+
+.add-icon {
+    display: flex;
+    align-items: center;
+}
+
+/* nav-search */
+.nav-search {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(238, 187, 94);
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+}
+
+.nav-search:hover {
+    border: 2px solid rgb(233, 179, 78);
+}
+
+.search-select {
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+
+.search-input {
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.search-icon {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    background-color: rgb(190, 140, 47);
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #0f1111;
+}
+
+/* nav-loc */
+.nav-loc {
+    display: flex;
+    align-items: center;
+    padding: 7px;
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+
+.nav-loc:hover {
+    border-color: white;
+}
+
+.add-flag img {
+    width: 20px;
+    height: auto;
+}
+
+.search-lang {
+    background-color: #070707;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+    color: white;
+    margin: 0;
+}
+
+/* nav-signin */
+.add-one {
+    color: white;
+    font-size: 0.9rem;
+    margin-left: 15px;
+    text-align: left;
+}
+
+.add-two {
+    color: white;
+    font-size: 0.91rem;
+    font-weight: bold;
+    margin-left: 15px;
+    text-align: left;
+}
+
+/* nav-RetOrd */
+.add-i {
+    color: white;
+    font-size: 0.9rem;
+    margin-left: 15px;
+    text-align: left;
+    width: max-content;
+}
+
+.add-ii {
+    color: white;
+    font-size: 0.91rem;
+    font-weight: bold;
+    margin-left: 15px;
+    text-align: left;
+    width: max-content;
+}
+
+/* nav-cart */
+.nav-cart i {
+    font-size: 29px;
+}
+
+.nav-cart {
+    font-size: 0.8rem;
+    font-weight: 700;
+    display: flex;
+    align-items: flex-end;
+}
+
+/* Panel */
+.panel {
+    height: 40px;
+    background-color: #232f3e;
+    display: flex;
+    color: #f3f3f3;
+    align-items: center;
+}
+
+.panel-ops {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    /* FIX #5: was "font: size 0.50rem" which is invalid */
+    font-size: 0.75rem;
+    font-weight: 200;
+}
+
+.panel-all {
+    display: flex;
+    /* FIX #5: was "font: size 0.77rem" which is invalid */
+    font-size: 0.77rem;
+    padding-left: 15px;
+    align-items: center;
+    gap: 6px;
+    font-weight: 200;
+    white-space: nowrap;
+}
+
+.panel-all:hover {
+    border-color: #f3f3f3;
+}
+
+/* Hero */
+.hero-section {
+    /* FIX #5: Corrected path — css/ is one level up from assets/ */
+    background-image: url("../assets/banner/hero_image.jpg");
+    height: 300px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.hero-message {
+    background-color: white;
+    color: #070707;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-size: 0.87rem;
+    margin-bottom: 25px;
+    width: 89%;
+    padding: 10px 0;
+}
+
+.hero-message a {
+    color: #007185;
+    width: 80%;
+}
+
+/* Shop section */
+.shop-section {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+    flex-wrap: wrap;
+}
+
+.box {
+    height: 400px;
+    width: 24%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+}
+
+/* FIX #5: All box image paths corrected to go up from css/ to assets/product/ */
+.box1-img {
+    background-image: url("../assets/product/box1_image.jpg");
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.box2-img {
+    background-image: url("../assets/product/box2_image.jpg");
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.box3-img {
+    background-image: url("../assets/product/box3_image.jpg");
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.box4-img {
+    background-image: url("../assets/product/box4_image.jpg");
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.box5-img {
+    background-image: url("../assets/product/box5_image.jpg");
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.box6-img {
+    background-image: url("../assets/product/box6_image.jpg");
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.box7-img {
+    background-image: url("../assets/product/box7_image.jpg");
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.box8-img {
+    background-image: url("../assets/product/box8_image.jpg");
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.box-content {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.box-content p {
+    color: #007185;
+    font-size: medium;
+}
+
+/* Footer */
+/* FIX #7 & #8: Added margin-top here, and HTML now has class="footer" on <footer> */
+.footer {
+    margin-top: 15px;
+}
+
+.foot-panel {
+    cursor: pointer;
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8rem;
+}
